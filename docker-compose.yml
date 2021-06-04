@@ -1,9 +1,9 @@
-version: "3.8"
+version: "2.0"
 services:
   app:
     build: .
-    command: python hello.py
+    command: python3.8 hello.py
     ports:
       - "5000:5000"
     volumes:
-      - .:/python-flask
+      - .:/app
