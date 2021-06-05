@@ -1,9 +1,8 @@
-# DevSecOps - Background, Status and Future Challenges
-F. Ozgur Catak - f.ozgur.catak@gmail.com
+# DevSecOps - Background, Status and Future Challenges
 
-GitHub repository for the lecture at University of Stavanger
-
- June 14th, 2021
+ - F. Ozgur Catak - f.ozgur.catak@gmail.com 
+ - GitHub repository for the lecture at [**University of Stavanger**](https://www.uis.no/en)
+ - June 14th, 2021
 
 ### Jenkins Installation
 we can run Jenkins as Docker image
@@ -19,3 +18,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
