@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# DevSecOps - Background, Status and Future Challenges
 
-You can use the [editor on GitHub](https://github.com/ocatak/devsecops-tutorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+ - F. Ozgur Catak - f.ozgur.catak@gmail.com 
+ - GitHub repository for the lecture at [**University of Stavanger**](https://www.uis.no/en)
+ - June 14th, 2021
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Jenkins Installation
+we can run Jenkins as Docker image
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```console
+docker pull jenkins
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Jekyll Themes
+Please make sure to update tests as appropriate.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ocatak/devsecops-tutorial/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
