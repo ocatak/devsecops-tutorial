@@ -1,7 +1,6 @@
 pipeline{
-  agent any 
+  agent any
   stages {
-
         stage('SAST') {
            build 'SECURITY-SAST-SNYK'
         }
