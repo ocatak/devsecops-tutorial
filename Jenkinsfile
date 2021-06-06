@@ -8,9 +8,7 @@ pipeline {
   stages {
 
     stage('Cloning Git') {
-      steps {
-        git 'https://github.com/ocatak/devsecops_stavanger.git'
-      }
+    checkout scm
     }
 
     stage('SAST') {
