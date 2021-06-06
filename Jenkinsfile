@@ -1,6 +1,11 @@
 pipeline{
   agent any 
   stages {
+
+        stage('SAST') {
+           build 'SECURITY-SAST-SNYK'
+        }
+
         stage ('Build') {
 			steps {
 				echo "Build Phase"
