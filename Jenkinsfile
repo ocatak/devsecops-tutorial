@@ -2,7 +2,9 @@ pipeline{
   agent any
   stages {
         stage('SAST') {
-           build 'SECURITY-SAST-SNYK'
+           steps{
+              build 'SECURITY-SAST-SNYK'
+           }
         }
 
         stage ('Build') {
