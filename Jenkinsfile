@@ -1,50 +1,21 @@
-pipeline {
-  agent {
-    label 'master'
-  }
-
- // tools {nodejs "node"}
-
+pipeline{
+  agent any 
   stages {
-
-    stage('Cloning Git') {
-    checkout scm
-    }
-
-    stage('SAST') {
-      steps {
-        echo '#### sast scan started #########'
-        echo '#### sast scan end #############'
-      }
-    }
-  stage('Build-and-Tag') {
-      steps {
-         sh "docker build . -t fcatak/devsecops_stavanger"
-         echo 'build & tagging completed'
-      }
-    }
-     stage('post-to-dockerhub') {
-      steps {
-        script{
-        docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-          sh "docker push fcatak/devsecops_stavanger"}
-        }
-      }
-    }
- stage('pull-image-server') {
-      steps {
-        script{
-      docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-         sh "docker-compose down"
-        sh "docker-compose up -d"}
-        }
-      }
-    }
-    stage('DAST') {
-      steps {
-         echo 'successfully posted to dockerhub'
-      }
-    }
-
-  }
+        stage ('Build') {
+			steps {
+				echo "Build Phase"
+		    }
+		}
+		stage ('Test') {
+		    steps{
+			     echo "Test Phase"
+			 }
+		}
+        stage ('Deploy') {
+              steps{
+			    echo "Deploy Phase"
+			}
+	    }
+	}
 }
+
