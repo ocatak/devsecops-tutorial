@@ -19,3 +19,9 @@ Please make sure to update tests as appropriate.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
+<object data="https://github.com/ocatak/devsecops-tutorial/raw/master/DevSecOps.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/ocatak/devsecops-tutorial/raw/master/DevSecOps.pdf">
+        <p>This browser does not support PDFs.</p>
+    </embed>
+</object>
+
