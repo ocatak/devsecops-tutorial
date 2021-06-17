@@ -4,6 +4,8 @@
  - GitHub repository for the lecture at [**University of Stavanger**](https://www.uis.no/en)
  - June 14th, 2021
 
+[DevSecOps](devsecops.png)
+
 ### Jenkins Installation
 we can run Jenkins as Docker image
 
