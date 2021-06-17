@@ -1,7 +1,7 @@
 # DevSecOps - Background, Status and Future Challenges
 
  - F. Ozgur Catak - f.ozgur.catak@gmail.com 
- - [Powerpoint Presenttion](https://github.com/ocatak/devsecops-tutorial/raw/master/DevSecOps.pdf)
+ - [Powerpoint Presentation](https://github.com/ocatak/devsecops-tutorial/raw/master/DevSecOps.pdf)
  - GitHub repository for the lecture at [**University of Stavanger**](https://www.uis.no/en)
  - June 14th, 2021
 
