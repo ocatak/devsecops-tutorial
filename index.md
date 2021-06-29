@@ -2,7 +2,7 @@
 
  - F. Ozgur Catak - f.ozgur.catak@gmail.com 
  - [Powerpoint Presentation](https://github.com/ocatak/devsecops-tutorial/raw/master/DevSecOps.pdf)
- - GitHub repository for the lecture at [**University of Stavanger**](https://www.uis.no/en)
+ - GitHub repository for the lecture at [**University of Agder**](https://www.uia.no/en)
  - June 14th, 2021
 
 ![DevSecOps](https://github.com/ocatak/devsecops-tutorial/raw/master/devsecops.png)
