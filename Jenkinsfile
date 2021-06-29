@@ -28,6 +28,7 @@ pipeline{
 	stage('IMAGE-VULN-TEST') {
            steps{
 	      echo "IMAGE-VULN-TEST Phase"
+	      build "IMAGE-SECURITY-SCANNER"
            }
         }
         stage ('Deploy') {
