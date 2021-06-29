@@ -21,6 +21,7 @@ pipeline{
 	 stage('DAST') {
            steps{
 	      echo "DAST Phase"
+	      build "SECURITY-DAST-Arachni"
            }
         }
 	  
