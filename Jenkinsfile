@@ -17,6 +17,20 @@ pipeline{
 			     echo "Test Phase"
 			 }
 		}
+	  
+	 stage('DAST') {
+           steps{
+              #build 'SECURITY-DAST-SNYK'
+	      echo "DAST Phase"
+           }
+        }
+	  
+	stage('IMAGE-VULN-TEST') {
+           steps{
+              #build 'IMAGE-VULN-TEST'
+	      echo "IMAGE-VULN-TEST Phase"
+           }
+        }
         stage ('Deploy') {
               steps{
 			    echo "Deploy Phase"
