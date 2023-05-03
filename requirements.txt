@@ -4,7 +4,7 @@ click==7.1.2
 command-not-found==0.3
 distlib==0.3.2
 filelock==3.0.12
-Flask==1.1.4
+Flask==2.2.5
 importlib-metadata==2.1.1
 importlib-resources==3.2.1
 itsdangerous==1.1.0
