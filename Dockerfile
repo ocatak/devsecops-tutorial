@@ -1,4 +1,4 @@
-FROM python:3.8.1
+FROM python:3.13.0a1
 LABEL maintainer "ozgur catak <f.ozgur.catak@gmail.com>"
 ADD . /app
 WORKDIR /app
